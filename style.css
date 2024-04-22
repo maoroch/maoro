@@ -1,0 +1,75 @@
+header {margin-top: 150px;}
+h1 {font-size: 3rem !important;}
+p {font-size: 1.2rem !important;}
+.wheels {width: 150px !important; height: 150px !important; border-radius: 100%; display: block;
+    margin-left: auto;
+    margin-top: 50px;
+    margin-right: auto; background-color: #D9D9D9;}
+.ilyas {background-image: url("Ilyas.jpg") !important;}
+.vladimir {background-image: url(vladimir.jpg) !important;}
+.names {display: block;
+    margin-left: auto;
+    margin-top: 50px !important;
+    margin-right: auto;}
+img {border-radius: 20px;}
+.bg-black {background-color: black;}
+body, html {
+    overflow-x: hidden;
+    overflow-y: scroll;
+    scrollbar-width: none; /* для Firefox */
+}
+body::-webkit-scrollbar { /* для WebKit-браузеров */
+    display: none;
+}
+
+/* Стилизация индикатора прокрутки */
+.scroll-indicator {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 4px;
+    background-color: #ff4800; /* цвет Bootstrap Primary */
+    z-index: 1030; /* чтобы быть поверх основных элементов */
+}
+
+.image-container {
+    position: relative;
+    text-align: center;
+}
+.centered-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.image-text {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    padding: 0 10px; /* Добавим небольшой отступ по бокам */
+}
+
+.btn-dark {width: 312px !important; height: 70px !important; margin-top: 30px;}
+
+@media only screen and (max-width: 600px) {
+.wheels2 {margin-top: 100px !important;}
+  }
+
+.navbar {box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Отступы для навигационных ссылок в навбаре */
+.navbar-nav .nav-link {
+    margin-right: 20px; /* добавляет отступ справа к каждой ссылке, значение можно изменить по вкусу */
+  }
+  
+  /* Убрать отступ справа у последней ссылки в каждой группе навигационных элементов */
+  .navbar-nav .nav-link:last-child {
+    margin-right: 0;
+  }
+  
